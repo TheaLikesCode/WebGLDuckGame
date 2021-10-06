@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Spillet</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				color: #000;
+				font-family:Monospace;
+				font-size:13px;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				text-align:center;
+				padding: 5px;
+			}
+
+			a {
+
+				color: #a06851;
+			}
+
+		</style>
+	</head>
+	<body onload="main()">
+
+		<div id="info">
+		WASD to move, space to jump
+		</div>
+
+		<script src="js/libs/three.min.js"></script>
+
+		<script src="js/libs/OrbitControls.js"></script>
+		<script src="js/libs/Detector.js"></script>
+		<script src="js/libs/stats.min.js"></script>
+
+		<script src="js/shaders/ConvolutionShader.js"></script>	
+		<script src="js/shaders/CopyShader.js"></script>
+		<script src="js/shaders/SSAOShader.js"></script>
+		<script src="js/shaders/FXAAShader.js"></script>
+		<script src="js/shaders/Gray.js"></script>
+
+		<script src="js/postprocessing/EffectComposer.js"></script>
+		<script src="js/postprocessing/RenderPass.js"></script>
+		<script src="js/postprocessing/MaskPass.js"></script>
+		<script src="js/postprocessing/ShaderPass.js"></script>
+		<script src="js/postprocessing/BloomPass.js"></script>
+		
+
+		<script src="js/shaders/MrWater.js"></script>
+
+		<script src="js/InitFunctions.js"></script>
+		
+		<script src="js/Spiller.js"></script>
+		<script src="js/Collision.js"></script>
+
+		<script src="js/Spillet.js"></script>
+
+
+	<script>
+
+			if ( ! Detector.webgl ) {
+
+				Detector.addGetWebGLMessage();
+				document.getElementById( 'container' ).innerHTML = "";
+
+			}
+			
+			</script>
+	</body>
+</html>
