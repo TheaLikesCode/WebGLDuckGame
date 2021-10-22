@@ -1,7 +1,5 @@
-/**
-* @Author MMGS @ www.webgl.no
-* Spillprogrammeringprosjekt, høst 2014
-*/
+
+
 
 var mesh;
 var timer = 0.0;
