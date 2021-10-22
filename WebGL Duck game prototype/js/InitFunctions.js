@@ -1,7 +1,3 @@
-/**
-* @Author MMGS @ www.webgl.no
-* Spillprogrammeringprosjekt, høst 2014
-*/
 
 //Kollisjonsvariabler:
 var localVertex;
