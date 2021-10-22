@@ -1,14 +1,4 @@
-////////////////////////Vann/////////////////////////////////////////////////////////////////
-////@Author: MMMGS @ www.webgl.no  
-//// 2014-11  this.Shader is based on  www.threejs.org examples       
-////  http://threejs.org/examples/#webgl_shaders_ocean																	
-//// http://threejs.org/examples/#webgl_materials_shaders_fresnel																	
-//// http://threejs.org/examples/#webgl_mirror
-/**
-* @Author MMGS @ www.webgl.no
-* Spillprogrammeringprosjekt, høst 2014
-*/
-/////////////////////////////////////////////////////////////////////////////////////////
+
 THREE.ShaderLib['mirror'] = {
 
 	uniforms: { "mirrorColor": { type: "c", value: new THREE.Color(0xffffff) },
