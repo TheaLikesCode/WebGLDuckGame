@@ -1,7 +1,4 @@
-/**
-* @Author MMGS @ www.webgl.no
-* Spillprogrammeringprosjekt, høst 2014
-*/
+
 var container, stats;
 var materials = [];
 var scene, renderer;
